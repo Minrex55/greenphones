@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --fuente: "Poppins", sans-serif;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.containerall {
+    width: 100%;
+    height: 100vh;
+    background-color: #4ba534;
+}
+
+.header {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+}
+
+.back {
+    width: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back button {
+    background-color: rgba(255, 255, 255, 0.199);
+    width: 70%;
+    height: 70%;
+    border-radius: 15px;
+    color: white;
+    font-size: 30px;
+    border-style: none;
+}
+
+.headertitle {
+    width: 64%;
+    height: 100%;
+    display: flex;
+    font-size: 21px;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fuente);
+    color: white;
+    font-weight: bold;
+}
+
+.like {
+    width: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.like button {
+    background-color: rgba(255, 255, 255, 0.199);
+    width: 70%;
+    height: 70%;
+    border-radius: 15px;
+    color: white;
+    font-size: 30px;
+    border-style: none;
+}
+
+.containertop {
+    width: 100%;
+    height: 30vh;
+}
+
+.containerdown {
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    border-radius: 40px 40px 0 0;
+}
+
+.imgcontainer {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.imgcontainer img {
+    width: 100%;
+    margin-top: -150px;
+    z-index: 99999;
+}
+
+.section1 {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    padding: 13px;
+}
+
+.namepricecontainer {
+    width: 60%;
+    height: 100%;
+    font-family: var(--fuente);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.pricecontainer {
+    color: #4ba534;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -20px;
+}
+
+.countercontainer {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countercontainer button {
+    width: 80%;
+    height: 60%;
+    background-color: #4ba534;
+    color: white;
+    font-family: var(--fuente);
+    font-size: 25px;
+    border-radius: 25px;
+    border-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section2 {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--fuente);
+    font-size: 20px;
+}
+
+.rate .Kcal .time{
+    display: flex;
+}
+
+.rate {
+    margin-left: -20px;
+}
+
+.time {
+    margin-right: -20px;
+}
+
+.rate i {
+    color: gold;
+}
+
+.kcal i {
+    color: red;
+}
+
+.time i {
+    color: gold;
+}
+
+.section3 {
+ width: 100%;
+ height: 18vh;
+ font-family: var(--fuente);
+ font-size: 12px;
+ padding: 15px;
+}
+
+.section3 .paragraph{
+    font-size: 16px;
+    margin-top: -10px;
+    color: #555;
+}
+
+.section3 .paragraph a{
+    text-decoration: none;
+    color: #4ba534;
+}
+
+.containerbutton {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerbutton button {
+    background-color: #4ba534;
+    color: #fff;
+    width: 90%;
+    height: 60%;
+    border-radius: 20px;
+    margin-top: -50px;
+    font-size: 22px;
+    border-style: none;
+    font-family: var(--fuente);
+}
